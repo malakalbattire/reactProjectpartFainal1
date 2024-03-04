@@ -8,6 +8,7 @@ import Products from './pages/Products/Products';
 import Categories from './pages/Categories/Categories';
 import Signup from './pages/signup/Signup';
 import Login from './pages/login/Login';
+import NotFound from './pages/NotFound/NotFound';
 
 export default function App() {
   const router = createBrowserRouter([{
@@ -37,6 +38,10 @@ export default function App() {
       {
         path:'/login',
         element:<Login/>,
+      },
+      {
+        path:'*',
+        element:<NotFound/>,
       },
     ]
   }])
