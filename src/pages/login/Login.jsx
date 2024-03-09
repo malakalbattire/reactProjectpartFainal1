@@ -37,7 +37,7 @@ export default function Login() {
         <label>password</label>
         <input type="password" value={user.password} name="password" onChange={handelChange} />
 
-        <button type="submit"></button>
+        <button type="submit">submit</button>
     
       
      </form>

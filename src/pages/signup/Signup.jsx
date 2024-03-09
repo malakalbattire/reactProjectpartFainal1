@@ -91,8 +91,9 @@ const [errors, setErrors]=useState([]);
         <label>image</label>
         <input type="file" name="image" onChange={handelImageChange} />
 
-        <button type="submit"></button>
+        <button type="submit">submit</button>
       </form>
     </>
   );
 }
+
