@@ -8,6 +8,8 @@ import Products from './pages/Products/Products';
 import Categories from './pages/Categories/Categories';
 import Signup from './pages/signup/Signup';
 import Login from './pages/login/Login';
+import Category from './pages/Category/Category';
+
 import NotFound from './pages/NotFound/NotFound';
 
 export default function App() {
@@ -34,6 +36,11 @@ export default function App() {
       {
         path:'/signup',
         element:<Signup/>,
+      },
+
+      {
+        path:'/products/category/:pid',
+        element:<Category/>,
       },
       {
         path:'/login',
